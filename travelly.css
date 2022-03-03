@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --family: "Open Sans";
+    --family1: "Montserrat";
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+/* BAS HISSE*/
+
+#entry{
+    background-image: url('backround-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    padding-top: 25px;
+}
+.main i{
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+}
+.ask{
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 250px;
+}
+.ask h1{
+    font: 300 52px var(--family);
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input,button{
+    border: none;
+    height: 40px;
+}
+.search input{
+    width: 325px;
+    font: 400 16px var(--family);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    padding-left: 15px;
+    outline: none;
+}
+.search button{
+    width: 125px;
+    background-color: #fd4f32;
+    font: 700 16px var(--family);
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* ikinci hissse */
+#destination{
+    background-color: #eeeeee;
+}
+.container{
+    padding-top: 55px;
+}
+.container h1{
+    font: 700 16px var(--family1);
+    color: #323232;
+}
+.container p{
+    font: 400 15px var(--family);
+    color: #8b8b8b;
+    margin-top: 10px;
+}
+.country img{
+    position: relative;
+}
+.country span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(10px,10px);
+}
+.picture{
+    padding-left: 15px;
+}
+.pictures{
+    padding-top: 35px;
+    padding-bottom: 70px;
+    display: flex;
+}
+.text{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 204px;
+    box
+}
+
+.text h1{
+    font: 14px var(--family1);
+    color: #323232;
+    text-transform: uppercase;
+}
+
+.text p{
+font-size: 400 13px var(--family);
+line-height: 19px;
+color: #696969;
+}
+/* 3*/
+#information{
+    background-color: #ffffff;
+    padding-top: 80px ;
+}
+#before{
+    font-size: 300 52px var(--family);
+    letter-spacing: 4px;
+    color: #323232;
+}
+.about{
+    display: flex;
+    padding-bottom: 75px;
+}
+.box{
+    padding-top: 60px;
+    margin-left: 65px;
+}
+.box h1{
+    font: 700 14px var(--family1);
+    color: #323232;
+    text-transform: uppercase;
+}
+.box p{
+    font: 400 13px var(--family);
+    line-height: 19px;
+    color: #696969;
+}
+.inbox h1{
+    font: 700 16px var(--family1);
+letter-spacing: 0px;
+color: #323232;
+text-transform: uppercase;
+text-align: center;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 75px;
+}
+.mail input,button{
+    border: none;
+    height: 40px;
+}
+.mail input{
+    width: 325px;
+    font: 400 16px var(--family);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    padding-left: 15px;
+    background-color: #eeeeee;
+    outline: none;
+}
+.mail button{
+    width: 125px;
+    background-color: #fd4f32;
+    font: 700 16px var(--family);
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* son hisse */
+#footer{
+    background-color: #eeeeee;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+.copy p{
+    font: 400 14px var(--family);
+    line-height: 22px;
+    color: #8b8b8b;
+    padding-bottom: 40px;
+}
+.contact ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.contact ul li a{
+    text-decoration: none;
+    font-size: 14px;
+text-transform: uppercase;
+color: #323232;
+font-weight: 700;
+font-family: "Montserrat";
+}
