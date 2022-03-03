@@ -104,7 +104,7 @@
 }
 
 .text h1{
-    font: 14px var(--family1);
+    font:400 14px var(--family1);
     color: #323232;
     text-transform: uppercase;
 }
